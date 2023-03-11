@@ -17,6 +17,7 @@ body {
   color: var(--text-color);
   font-style: normal;
 }
+/* Landing-page page CSS */
 .portfolio-text {
   font-weight: 400;
   font-size: 1rem;
@@ -53,8 +54,8 @@ body {
   font-size: 3.5rem;
   line-height: 1em;
 }
-.full-name{
-    margin-bottom: 1em;
+.full-name {
+  margin-bottom: 1em;
 }
 .job {
   font-family: var(--main-font);
@@ -71,51 +72,118 @@ body {
   border-bottom: 1px solid #e1e1e1;
   margin-bottom: 2em;
 }
-.list-item-link{
-font-weight: 600;
-font-size: 1.125rem;
-line-height: 2em;
-color: var(--text-color);
-text-decoration: none;
-transition: all 300ms ease-in-out;
+.list-item-link {
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 2em;
+  color: var(--text-color);
+  text-decoration: none;
+  transition: all 300ms ease-in-out;
 }
 
-.list-item-link:hover ,.list-item-link:focus{
-    color:var(--text-color);
-    padding-bottom: 0.4em;
-    border-bottom: 3px solid var(--theme-color);
+.list-item-link:hover,
+.list-item-link:focus {
+  color: var(--text-color);
+  padding-bottom: 0.4em;
+  border-bottom: 3px solid var(--theme-color);
 }
-.list-number{
-font-weight: 300;
-font-size: 1rem;
-line-height: 1.375em;
+.list-number {
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.375em;
 }
-.landing-page-text .text{
-font-weight: 400;
-font-size: 1rem;
-line-height: 2.25em;
+.landing-page-text .text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2.25em;
 }
-.landing-page-text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.landing-page-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.portfolio-image{
-    max-width: 80%;
-    border-radius: 0 1em 0 1em;
+.portfolio-image {
+  max-width: 80%;
+  border-radius: 0 1em 0 1em;
 }
 
+/* Works-page CSS */
+
+.heading-work-page {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 4.5rem;
+  line-height: 9rem;
+  color: var(--theme-color);
+}
+.text-work-page {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+}
+.sidebar-number {
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 2rem;
+}
+.sidebar-link {
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  text-decoration: none;
+  color: var(--text-color);
+  transition: all 300ms ease-in-out;
+}
+.sidebar-link:hover,
+.sidebar-link:focus ,
+.homepage-link:hover,
+.homepage-link:focus {
+  color: var(--text-color);
+  border-bottom: 1px solid var(--theme-color);
+  padding-bottom: 0.5em;
+}
+.active {
+  border-left: 4px solid var(--theme-color);
+  color: var(--theme-color);
+}
+.active a {
+  color: var(--theme-color);
+}
+.active a:hover,
+.active a:focus {
+  color: var(--theme-color);
+}
+.sidebar-item.active {
+  padding: 2em 0;
+  padding-left: 1em;
+}
+
+.homepage-link {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  text-decoration: none;
+  color: var(--text-color);
+  transition: all 300ms ease-in-out;
+}
+.homepage-icon {
+    font-size: 1rem;
+}
+
+.why {
+  border: 1px solid red;
+}
 @media (max-width: 576px) {
-    .open-collaborations {
-        font-size: 0.8rem;
-        text-align: right;
-        padding-left: 2.5em;
-        line-height: 1em;
-    }
-    .job{
-        text-align: center;
-    }
-    .name {
-        font-size: 6rem;
-    }
+  .open-collaborations {
+    font-size: 0.8rem;
+    text-align: right;
+    padding-left: 2.5em;
+    line-height: 1em;
+  }
+  .job {
+    text-align: center;
+  }
+  .name {
+    font-size: 6rem;
+  }
 }
