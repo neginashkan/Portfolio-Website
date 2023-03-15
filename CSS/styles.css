@@ -104,11 +104,18 @@ body {
 .x-icon,
 .collaborate-page-heading,
 .see-more-button:hover,
-.see-more-button:focus {
+.see-more-button:focus ,.open-source-code{
   color: var(--theme-color);
 }
 /* Landing page  CSS */
-
+.open-source-code{
+  text-decoration: none;
+  border-bottom: 1px solid var(--theme-color);
+  padding-bottom: 0.5em;
+}
+.open-source-code:hover,.open-source-code:focus{
+  color: var(--text-color);
+}
 .portfolio-text {
   padding-top: 1.6em;
 }
