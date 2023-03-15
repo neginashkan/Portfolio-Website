@@ -18,11 +18,98 @@ body {
   color: var(--text-color);
   font-style: normal;
 }
-/* Landing-page page CSS */
-.portfolio-text {
+
+/*  All Font Weight 400*/
+
+.portfolio-text,
+.name-logo,
+.open-collaborations,
+.name,
+.last-name,
+.job,
+.landing-page-text .text,
+.text-work-page,
+.heading-work-page,
+.heading-contact-page,
+.social-media-id,
+.company,
+.company-name,
+.year,
+.about-honors,
+.sub-title,
+.heading-honors-page,
+.skill-name,
+.question,
+.answer-input {
   font-weight: 400;
+}
+/*  All Font Size 1rem*/
+.portfolio-text,
+.open-collaborations,
+.landing-page-text .text,
+.list-number,
+.homepage-link,
+.homepage-icon,
+.social-media-name,
+.company-name,
+.year,
+.about-honors,
+.project-description,
+.company-box-active .company,
+.view-button,
+.see-more-button {
   font-size: 1rem;
+}
+
+/*  All Font Size 2rem*/
+.name-logo,
+.icon-link,
+.project-name {
+  font-size: 2rem;
+}
+/*  All Font Height 1rem*/
+.portfolio-text,
+.last-name,
+.name {
   line-height: 1em;
+}
+
+.name-logo,
+.name,
+.job,
+.heading-work-page,
+.heading-contact-page,
+.heading-honors-page,
+.project-name,
+.collaborate-page-heading {
+  font-family: var(--main-font);
+}
+
+.job,
+.heading-work-page,
+.active a:hover,
+.active a:focus,
+.active a,
+.active,
+.heading-honors-page,
+.icon-link:hover,
+.icon-link:focus,
+.circle-button-link:focus,
+.circle-button-link:hover,
+.heading-contact-page,
+.project-name,
+.company-box-active,
+.company-box:hover,
+.company-box:focus,
+.x-icon,
+.collaborate-page-heading,
+.see-more-button:hover,
+.see-more-button:focus {
+  color: var(--theme-color);
+}
+/* Landing page  CSS */
+
+.portfolio-text {
   padding-top: 1.6em;
 }
 .keyboard-icon {
@@ -30,40 +117,28 @@ body {
 }
 
 .name-logo {
-  font-family: var(--main-font);
-  font-weight: 400;
-  font-size: 2rem;
   line-height: 2em;
   text-align: center;
 }
 .open-collaborations {
   padding-top: 1.5em;
-  font-weight: 400;
-  font-size: 1rem;
   line-height: 1.3em;
   text-align: right;
 }
 .name {
-  font-family: var(--main-font);
-  font-weight: 400;
   font-size: 7.5rem;
-  line-height: 1em;
 }
 
 .last-name {
-  font-weight: 400;
   font-size: 3.5rem;
-  line-height: 1em;
 }
 .full-name {
   margin-bottom: 1em;
 }
 .job {
-  font-family: var(--main-font);
-  font-weight: 400;
   font-size: 5.5rem;
   line-height: 5em;
-  color: var(--theme-color);
+
   margin-bottom: 0.5em;
 }
 .nav-bar {
@@ -90,12 +165,9 @@ body {
 }
 .list-number {
   font-weight: 300;
-  font-size: 1rem;
   line-height: 1.375em;
 }
 .landing-page-text .text {
-  font-weight: 400;
-  font-size: 1rem;
   line-height: 2.25em;
 }
 .landing-page-text {
@@ -108,17 +180,13 @@ body {
   border-radius: 0 1em 0 1em;
 }
 
-/* Works-page CSS */
+/* Works  page CSS */
 
 .heading-work-page {
-  font-family: var(--main-font);
-  font-weight: 400;
   font-size: 4.5rem;
   line-height: 9rem;
-  color: var(--theme-color);
 }
 .text-work-page {
-  font-weight: 400;
   font-size: 1.2rem;
   line-height: 1.7rem;
 }
@@ -145,15 +213,8 @@ body {
 }
 .active {
   border-left: 4px solid var(--theme-color);
-  color: var(--theme-color);
 }
-.active a {
-  color: var(--theme-color);
-}
-.active a:hover,
-.active a:focus {
-  color: var(--theme-color);
-}
+
 .sidebar-item.active {
   padding: 2em 0;
   padding-left: 1em;
@@ -161,17 +222,14 @@ body {
 
 .homepage-link {
   font-weight: 600;
-  font-size: 1rem;
   line-height: 1.375rem;
   text-decoration: none;
   color: var(--text-color);
   transition: all 300ms ease-in-out;
 }
-.homepage-icon {
-  font-size: 1rem;
-}
 
-/*  */
+/*  contact page CSS*/
+
 body.contact-page-body {
   background-color: var(--contact-page-background);
   color: var(--contact-page-text-color);
@@ -189,9 +247,6 @@ body.contact-page-body .homepage-link {
   color: var(--contact-page-text-color);
 }
 .heading-contact-page {
-  color: var(--theme-color);
-  font-family: var(--main-font);
-  font-weight: 400;
   font-size: 3rem;
   line-height: 4rem;
   text-align: center;
@@ -211,10 +266,7 @@ body.contact-page-body .homepage-link {
   color: var(--contact-page-text-color);
   text-align: center;
 }
-.circle-button-link:focus,
-.circle-button-link:hover {
-  color: var(--theme-color);
-}
+
 .change-color {
   color: var(--contact-page-text-color);
 }
@@ -248,22 +300,16 @@ body.contact-page-body .homepage-link {
 }
 .social-media-name {
   font-weight: 700;
-  font-size: 1rem;
   line-height: 2rem;
 }
 .social-media-id {
-  font-weight: 400;
   font-size: 0.8rem;
   line-height: 1rem;
 }
 .icon-link {
-  font-size: 2rem;
   color: var(--contact-page-text-color);
 }
-.icon-link:hover,
-.icon-link:focus {
-  color: var(--theme-color);
-}
+
 .social-media-active {
   background: var(--theme-color);
   border: none;
@@ -318,16 +364,12 @@ body.contact-page-body .homepage-link {
 /* honors page */
 
 .heading-honors-page {
-  font-family: var(--main-font);
-  font-weight: 400;
   font-size: 4.5rem;
   line-height: 1rem;
-  color: var(--theme-color);
   text-align: center;
   margin-bottom: 1em;
 }
 .sub-title {
-  font-weight: 400;
   font-size: 1.3rem;
   line-height: 2rem;
   text-align: center;
@@ -340,21 +382,16 @@ body.contact-page-body .homepage-link {
 }
 .about-honors {
   text-align: center;
-  font-weight: 400;
-  font-size: 1rem;
   line-height: 1.5rem;
   margin-bottom: 2em;
 }
 .company-name,
 .year {
-  font-weight: 400;
-  font-size: 1rem;
   line-height: 1.5rem;
   text-transform: capitalize;
 }
 
 .company {
-  font-weight: 400;
   font-size: 1.5rem;
   line-height: 2.5rem;
   text-align: center;
@@ -367,7 +404,6 @@ body.contact-page-body .homepage-link {
 }
 .company-box:hover,
 .company-box:focus {
-  color: var(--theme-color);
   border-bottom: 1px solid var(--theme-color);
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   border-radius: 3px;
@@ -378,16 +414,13 @@ body.contact-page-body .homepage-link {
   cursor: pointer;
 }
 .company-box-active {
-  color: var(--theme-color);
   border-bottom: 1px solid var(--theme-color);
 }
 .company-box-active .company-name,
 .year {
   font-size: 0.6rem;
 }
-.company-box-active .company {
-  font-size: 1rem;
-}
+
 .sidebar {
   position: fixed;
   right: 20px;
@@ -397,15 +430,11 @@ body.contact-page-body .homepage-link {
 /* projects */
 /* font-family: 'Patrick Hand', cursive; */
 .project-name {
-  font-family: var(--main-font);
   font-weight: 600;
-  font-size: 2rem;
   line-height: 3rem;
-  color: var(--theme-color);
 }
 .project-description {
   font-weight: 500;
-  font-size: 1rem;
   line-height: 2rem;
   text-align: center;
 }
@@ -420,7 +449,6 @@ body.contact-page-body .homepage-link {
 }
 .skill-name {
   font-family: "Patrick Hand", cursive;
-  font-weight: 400;
   font-size: 1.25rem;
   line-height: 1.5625rem;
   letter-spacing: 0.02em;
@@ -436,7 +464,6 @@ body.contact-page-body .homepage-link {
   text-decoration: none;
   color: var(--text-color);
   font-weight: 600;
-  font-size: 1rem;
   line-height: 2rem;
   padding: 0.5em 1em;
   display: flex;
@@ -456,7 +483,6 @@ body.contact-page-body .homepage-link {
 }
 .see-more-button:hover,
 .see-more-button:focus {
-  color: var(--theme-color);
   border: 1px solid var(--theme-color);
   background: var(--main-background-color);
 }
@@ -472,15 +498,12 @@ body.contact-page-body .homepage-link {
 /*  collaborate page */
 
 .collaborate-page-heading {
-  font-family: var(--main-font);
   font-weight: 500;
   font-size: 3rem;
   line-height: 4.5rem;
-  color: var(--theme-color);
 }
 .x-icon {
   font-size: 3rem;
-  color: var(--theme-color);
   padding-top: 5px;
   cursor: pointer;
 }
@@ -489,7 +512,6 @@ body.contact-page-body .homepage-link {
   color: var(--text-color);
 }
 .question {
-  font-weight: 400;
   font-size: 1.5rem;
   line-height: 2.25rem;
   margin-bottom: 0.5em;
@@ -500,7 +522,6 @@ body.contact-page-body .homepage-link {
   outline: none;
   border: none;
   background: var(--main-background-color);
-  font-weight: 400;
   font-size: 1.25rem;
   line-height: 1.875rem;
   padding: 0.5em 1em;
